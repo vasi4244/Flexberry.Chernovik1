@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-chernovik-1-сотрудники-e",
+  "editForm": "i-i-s-chernovik-1-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISChernovik_1СотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-chernovik-1-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

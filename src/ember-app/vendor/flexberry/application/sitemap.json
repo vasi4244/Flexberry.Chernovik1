@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Chernovik_1",
+  "applicationTitle": "Chernovik_1",
+  "items": [
+    {
+      "link": null,
+      "menuName": "chernovik-1",
+      "caption": "Chernovik_1",
+      "title": "Chernovik_1",
+      "children": [
+        {
+          "link": "i-i-s-chernovik-1-список-l",
+          "menuName": null,
+          "caption": "Список",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-chernovik-1-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-chernovik-1-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-chernovik-1-список-e",
+  "editForm": "i-i-s-chernovik-1-список-e",
+  "external": false,
+  "caption": "Список",
+  "name": "IISChernovik_1СписокL",
+  "className": "СписокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-chernovik-1-список",
+      "modelProjection": "СписокL"
+    }
+  ]
+}

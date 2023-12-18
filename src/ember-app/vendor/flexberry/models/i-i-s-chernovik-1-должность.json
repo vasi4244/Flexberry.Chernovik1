@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISChernovik_1Должность",
+  "modelName": "i-i-s-chernovik-1-должность",
+  "className": "Должность",
+  "nameSpace": "IIS.Chernovik_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наим",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДолжностьE",
+      "modelName": "i-i-s-chernovik-1-должность",
+      "attrs": [
+        {
+          "name": "наим",
+          "caption": "Наим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДолжностьL",
+      "modelName": "i-i-s-chernovik-1-должность",
+      "attrs": [
+        {
+          "name": "наим",
+          "caption": "Наим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

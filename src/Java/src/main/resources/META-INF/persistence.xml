@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Chernovik_1.model.Spisokkk</class>
+        <class>Chernovik_1.model.Spisok</class>
+        <class>Chernovik_1.model.Dolzhnost</class>
+        <class>Chernovik_1.model.Sotrudniki</class>
+        <class>Chernovik_1.model.FlexberryAdvLimit</class>
+        <class>Chernovik_1.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Chernovik_1.model.NewPlatformFlexberryServicesLock</class>
+        <class>Chernovik_1.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

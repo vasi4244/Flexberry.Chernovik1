@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISChernovik_1Списоккк",
+  "modelName": "i-i-s-chernovik-1-списоккк",
+  "className": "Списоккк",
+  "nameSpace": "IIS.Chernovik_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-chernovik-1-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "список",
+      "relatedTo": "i-i-s-chernovik-1-список",
+      "inverse": "списоккк"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокккE",
+      "modelName": "i-i-s-chernovik-1-списоккк",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Имя",
+          "lookupValueField": "имя",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-chernovik-1-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

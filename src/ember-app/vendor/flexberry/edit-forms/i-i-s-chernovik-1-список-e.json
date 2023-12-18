@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "имя",
+      "required": true,
+      "relationName": "Списоккк.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-chernovik-1-списоккк"
+    }
+  ],
+  "external": false,
+  "caption": "Список",
+  "name": "IISChernovik_1СписокE",
+  "className": "СписокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-chernovik-1-список",
+      "modelProjection": "СписокE"
+    }
+  ]
+}

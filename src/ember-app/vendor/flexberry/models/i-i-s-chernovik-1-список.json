@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISChernovik_1Список",
+  "modelName": "i-i-s-chernovik-1-список",
+  "className": "Список",
+  "nameSpace": "IIS.Chernovik_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "списоккк",
+      "relatedTo": "i-i-s-chernovik-1-списоккк",
+      "inverse": "список"
+    }
+  ],
+  "projections": [
+    {
+      "name": "СписокE",
+      "modelName": "i-i-s-chernovik-1-список",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СписокккE",
+          "caption": "Списоккк",
+          "name": "списоккк",
+          "relatedTo": "i-i-s-chernovik-1-списоккк",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "СписокL",
+      "modelName": "i-i-s-chernovik-1-список",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
